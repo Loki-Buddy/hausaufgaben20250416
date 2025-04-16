@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './style.css';
 import Titel from './Titel';
 import reportWebVitals from './reportWebVitals';
+import TierCard from './TierCard';
+import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Titel />
-
+    <TierCard name="Ally" art="Hund" krankheit="Arthritis - Hüfte" />
+    <Footer />
   </React.StrictMode>
 );
 
